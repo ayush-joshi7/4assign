@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB700</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/theme.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Student Name</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/htmlDemo">Html Demo</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/students">Students</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/tas">Teaching Assistants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/addStudent">Add Student</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <main class="col-md-12">
+          <!-- Start your code here -->
+          <article>
+            <h5><u>Football Players</u></h5>
+            <table border="1">
+              <caption>
+                <i>Football Means Socceer in Canada</i>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Players Name</th>
+                  <th>Age</th>
+                  <th>Nationality</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Leo Messi</td>
+                  <td>35</td>
+                  <td>Argentina</td>
+                </tr>
+                <tr>
+                  <td>Neymar Jr</td>
+                  <td>31</td>
+                  <td>Brazil</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article>
+            <h5><u>Employees Salary</u></h5>
+            <table border="1">
+              <caption>
+                <i>Salary of Employees per month</i>
+              </caption>
+              <thead>
+                <tr>
+                  <th>Month</th>
+                  <th>Salary</th>
+                  <th>last Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2">January</td>
+                  <td>Thapa</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">February</td>
+                  <td>2000</td>
+                  <td>Subedi</td>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>Subedi</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Total</th>
+                  <td>4000</td>
+                </tr>
+              </tfoot>
+            </table>
+          </article>
+
+          <article>
+            <h4><u>Vegeterian items</u></h4>
+            <ol>
+              <li>Green leaves</li>
+              <li>Vegetables</li>
+              <li>
+                Fruits
+                <ul>
+                  <li>Apple</li>
+                  <li>Orange</li>
+                  <li>Avocado</li>
+                  <li>Banana</li>
+                </ul>
+              </li>
+              <li>Milk and Dairy Product</li>
+            </ol>
+            <p>
+              There are many vegeterian items. Some of them are listed above.
+            </p>
+          </article>
+
+          <article>
+            <br />
+            <h3>
+              <u><b>Images:</b> Sample Images</u>
+            </h3>
+            <br />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg"
+              width="300"
+              height="200"
+              alt="Photo of Snowboarding"
+            />
+            <img
+              src="https://www.pinterest.com/pin/584834701593540792/"
+              width="300"
+              height="200"
+              alt="World Champion Leo Messi"
+            />
+            <img
+              src="https://unsplash.com/photos/PAe2UhGo-S4"
+              width="300"
+              height="200"
+              alt="Football ground"
+            />
+            <p>
+              The images above shows Snowboarding in Canada, Picture of Leo
+              Messi in Barcelona Jersey and picture of football Ground.
+            </p>
+          </article>
+
+          <article>
+            <br />
+            <h3>
+              <u><b>Audio: Sample Music</b></u>
+            </h3>
+            <audio controls>
+              <source
+                src="https://pat-crawford-sdds.netlify.app/shared/winter-2023/web700/A3/sample-audio.mp3"
+                type="audio/mp3"
+              />
+              <source
+                src="https://pat-crawford-sdds.netlify.app/shared/winter-2023/web700/A3/sample-audio.ogg"
+                type="audio/ogg"
+              />
+              Sorry, your browser doesn't support HTML5 audio.
+            </audio>
+            <p>
+              <i>
+                A sample audio added in the website using HTML 5 audio player.
+              </i>
+            </p>
+          </article>
+
+          <article>
+            <br />
+            <h3>
+              <u><b>Video: Sample Video</b></u>
+            </h3>
+            <video width="320" height="240" controls>
+              <source
+                src="https://pat-crawford-sdds.netlify.app/shared/winter-2023/web700/A3/sample-video.mp4"
+                type="video/mp4"
+              />
+              <source
+                src="https://pat-crawford-sdds.netlify.app/shared/winter-2023/web700/A3/sample-video.ogg"
+                type="video/ogg"
+              />
+              <source
+                src="https://pat-crawford-sdds.netlify.app/shared/winter-2023/web700/A3/sample-video.webm"
+                type="video/webm"
+              />
+              Sorry, your browser doesn't support HTML5 video
+            </video>
+            <p>
+              <i>
+                A sample video added in the website using HTML 5 video
+                player.</i
+              >
+            </p>
+          </article>
+
+          <!-- End your code here  -->
+        </main>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
