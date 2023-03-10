@@ -122,5 +122,5 @@ module.exports = {
   getCourses,
   getStudentsByCourse,
   getStudentByNum,
-  addStudent,
+  addStudent
 };
