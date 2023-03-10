@@ -101,26 +101,11 @@ let getStudentByNum = function (num) {
   });
 };
 
-app.post("/students/add", (req, res) => {
-  const studentData = req.body;
-
-  addStudent(studentData)
-    .then(() => {
-      res.redirect("/students");
-    })
-    .catch((err) => {
-      console.error(err);
-      res.status(500).send("Error adding student");
-    });
-});
-
-
 module.exports = {
   initialize,
   getAllStudents,
   getTAs,
   getCourses,
   getStudentsByCourse,
-  getStudentByNum,
-  addStudent
+  getStudentByNum
 };
