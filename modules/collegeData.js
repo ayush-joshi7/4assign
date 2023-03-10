@@ -11,13 +11,13 @@ let dataCollection = null;
 
 const initialize = () => {
   return new Promise((resolve, reject) => {
-    fs.readFile("../data/courses.json", "utf8", (err, dataFromStudentFile) => {
+    fs.readFile("./data/courses.json", "utf8", (err, dataFromStudentFile) => {
       if (err) {
         reject(err);
         return;
       }
       let studentDataFromFile = JSON.parse(dataFromStudentFile);
-      fs.readFile("../data/courses.json", "utf8", (err, dataFromCourseFile) => {
+      fs.readFile("./data/courses.json", "utf8", (err, dataFromCourseFile) => {
         if (err) {
           reject(err);
           return;
